@@ -26,31 +26,31 @@ When it was revealed that all of the test scores for the 9th graders at Thomas H
 Now that the suspecious data has been nullified. The impact of this data on the rest of the outcomes calculated can be analyzed.
 
 - How is the district summary impacted?
-![Original District Summary](</Users/leahikenberry/Desktop/DU_DATA_Analytics/School_District_Analysis/Resources/Original_District_Sum.png>)
-![Adjusted District Summary](</Users/leahikenberry/Desktop/DU_DATA_Analytics/School_District_Analysis/Resources/Adjusted_District_Sum.png>)
-  - The top image is the original district summary before the Thomas 9th grade data was removed. The bottom image is the adjusted district summary after accounting for the Thomas High School data. From these summaries it is possible to see that accounting for the suspecious data from Thomas High School didn't change the district summary that much, only lowering the metrics by as much as 0.3%.
+![Original District Summary](https://github.com/likenberry/School_District_Analysis/blob/main/Resources/Original_District_Sum.png)
+![Adjusted District Summary](https://github.com/likenberry/School_District_Analysis/blob/main/Resources/Adjusted_District_Sum.png)
+- The top image is the original district summary before the Thomas 9th grade data was removed. The bottom image is the adjusted district summary after accounting for the Thomas High School data. From these summaries it is possible to see that accounting for the suspecious data from Thomas High School didn't change the district summary that much, only lowering the metrics by as much as 0.3%.
 
 - How is the school summary impacted?
-![Original School Summary](</Users/leahikenberry/Desktop/DU_DATA_Analysis/Resources/Original_THS_Sum.png>)
-![Adjusted School Summary](</Users/leahikenberry/Desktop/DU_DATA_Analysis/Resources/Adjusted_THS_Sum.png>)
+![Original School Summary](https://github.com/likenberry/School_District_Analysis/blob/main/Resources/Original_THS_Sum.png)
+![Adjusted School Summary](https://github.com/likenberry/School_District_Analysis/blob/main/Resources/Adjusted_THS_Sum.png)
   - The top image is the original school summary that show cases all of the school's information. The bottom image is the adjusted school summary after Thomas High School was dealt with. These summaries show that removing the THS 9th grade scores dropped percentage of students passing math by 0.9%, students passing reading by 0.29% and students passing both math and reading (% overall passing) by 0.31%. These summaries were impacted more by removing the 9th grade THS data than the district summary.
 - How does replacing the suspecious scores from Thomas High School impact the rest of the scores from Thomas High School?
-![Original Top Five Schools](</Users/leahikenberry/Desktop/DU_DATA_Analysis/School_District_Analysis/Resources/Original_Top_Five_Schools.png>)
-![Adjusted Top Five Schools](</Users/leahikenberry/Desktop/DU_DATA_Analysis/School_District_Analysis/Resources/Adjusted_Top_Five_Schools.png>)
+![Original Top Five Schools](https://github.com/likenberry/School_District_Analysis/blob/main/Resources/Original_Top_Schools.png)
+![Adjusted Top Five Schools](https://github.com/likenberry/School_District_Analysis/blob/main/Resources/Adjusted_Top_Schools.png)
   - The top image is the original ranking of the top five performcing schools based off of scores. The bottom image is after accounting for the 9th grade THS data. Thomas High School remains the second ranked school even after adjusting for the 9th grade data. There are only slight differences in the out come of the THS results as noted above. The following is looking at how other metrics were impacted by replacing the 9th grade data.
     - Math and Reading Scores by grade
       - The math and reading scores from THS were replaced with a NaN (not a number) meaning that they would impact the calculations of the rest of the THS numbers. As noted above, there are some slight differences in the outcomes of the reading and math scores after the 9th grade data was replaced with NaNs.
     - Scores by School Spending
-    ![Original School Spending](</Users/Desktop/DU_DATA_Analysis/School_District_Analysis/Resources/Original_School_Spend.png>)
-    ![Adjusted School Spending](</Users/Desktop/DU_DATA_Analysis/School_District_Analysis/Resources/Adjusted_School_Spend.png>)
+    ![Original School Spending](https://github.com/likenberry/School_District_Analysis/blob/main/Resources/Original_School_Spend.png)
+    ![Adjusted School Spending](https://github.com/likenberry/School_District_Analysis/blob/main/Resources/Adjusted_School_Spend.png)
       - As previously calculated, Thomas High School is in the $630-644 spending range and changing the 9th grade data did not change the amount spent by the school.
     - Scores by School Size
-    ![Original School Size](</Users/Desktop/leahikenberry/DU_DATA_Analysis/School_District_Analysis/Resources/Original_School_Size.png>)
-    ![Adjusted School Size](</Users/leahikenberry/Desktop/DU_DATA_Analysis/School_District_Analysis/Resources/Adjusted_School_Size.png>)
+    ![Original School Size](https://github.com/likenberry/School_District_Analysis/blob/main/Resources/Original_School_Size.png)
+    ![Adjusted School Size](https://github.com/likenberry/School_District_Analysis/blob/main/Resources/Adjusted_School_Size.png)
       - The top image is the original scores by school size and the bottom image is the adjusted scores by school size. Thomas High School falls into medium school category (1000-2000) by number of students and there are minimal differences between the original and adjusted summaries.
     - Scores by School Type
-    ![Original School Type](</Users/leahikenberry/Desktop/DU_DATA_Analysis/School_District_Analysis/Resources/Original_School_Type.png>)
-    ![Adjusted School Type](</Users/leahikenberry/Desktop/DU_DATA_Analysis/School_District_Analysis/Resources/Adjusted_School_Size.png>)
+    ![Original School Type](https://github.com/likenberry/School_District_Analysis/blob/main/Resources/Original_School_Type.png)
+    ![Adjusted School Type](https://github.com/likenberry/School_District_Analysis/blob/main/Resources/Adjusted_School_Type.png)
       - The top image is the original school type summary and the bottom is the adjusted school type summaryy. Thomas High School is a charter school and that was not impacted by adjusting the 9th grade scores.
 
 ### Summary of Results
